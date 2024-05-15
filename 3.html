@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technology Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>  
+  
+  
+  
+  
+  
+.fa-3x{
+  border:2px solid blue ;
+  border-radius:20px ;
+  padding:10px 10px ;
+  color:white;
+  background-color:blue ;
+}
+  .red-theme {
+            background-color: red;
+            color: white;
+        }
+        .blue-theme {
+            background-color: blue;
+            color: white;
+        }
+        .pink-theme {
+            background-color: pink;
+            color: white;
+        }
+        .green-theme {
+            background-color: green;
+            color: white;
+        }
+  button{
+    border:2px solid red;
+    padding:20px ;
+    border-radius:20px ;
+    width:100%;
+    color:white;
+    background-color:red;
+  }
+  button:hover{
+    background-color:blue;
+  }
+    div.scrollmenu1
+    {
+  background-color:white;
+  overflow: auto;
+  height:400px;
+  white-space: nowrap;
+}
+
+div1.scrollmenu1 a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px; 
+  text-decoration: none;
+}
+
+div1.scrollmenu1 a:hover {
+background-color:blue;
+}
+   div.scrollmenu
+    {
+  background-color: #333;
+  overflow: auto;
+  height:80px;
+  white-space: nowrap;
+}
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px; 
+  
+  text-decoration: none;
+}
+div.scrollmenu a:hover {
+background-color:blue;
+}
+.btn9 {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.btn9:hover {
+  background-color:blue;
+}
+  </style>
+</head>
+<body>
+<p id="datetime"></p>
+<script>
+function updateTime() {
+  var dt = new Date();
+  var hours = dt.getHours();
+  var minutes = dt.getMinutes();
+  var seconds = dt.getSeconds();
+  // Add leading zero if needed
+  minutes = minutes < 10 ? '0' + minutes : minutes;
+  seconds = seconds < 10 ? '0' + seconds : seconds;
+  var timeString = hours + ':' + minutes + ':' + seconds;
+  var dateString = dt.toDateString();
+  document.getElementById("datetime").innerHTML = timeString + ' ' + dateString;
+}
+
+// Update time every second
+setInterval(updateTime, 1000);
+</script>
+
+  <p align="right">
+  <a href="form.html" class="fa-3x">Sign In</a>
+  </p>
+
+  
+  <font size=10px>
+  <a href="5.html">☰</a>   
+  </font>
+  <font color=>
+  <font size=5>
+  <marquee behavior="" direction="">Coding With Harman</marquee>
+  </font>
+  </font>
+  <br>
+  <br>
+  <input type="search" placeholder="  🔎 Search..........">
+  <br>
+  <img src="thumnail and.png" alt="buynow" width=100%>
+  <br>
+  <br>
+  <a href="Script.pdf" download><button>Download File</button></a>
+  
+  
+  
+  <footer>
+    
+       © 2024 Coding With Harman. All rights reserved.
+    
+    
+  </footer>
+  
+  </tt>
+</body>
+</html>
